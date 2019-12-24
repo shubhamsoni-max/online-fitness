@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+}
+
+.face-to-face {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.face-to-face::after {
+    z-index: -1;
+    position: absolute;
+    content: "";
+    width: 28%;
+    height: 55vh;
+    top: 11vw;
+    left: 60vw;
+    border-radius: 50%;
+    background-color: rgb(247, 247, 247);
+    box-shadow: 0 0 0 12vw rgb(243, 243, 243), 0 0 0 28vw rgb(237, 237, 237), 0 0 0 45vw rgb(215, 219, 220), 0 0 0 65vw rgb(200, 198, 199);
+}
+
+.CookiePolicy::after {
+    position: absolute;
+    left: -1rem;
+    bottom: -1rem;
+    content: '';
+    height: 5rem;
+    width: 5rem;
+    background-color: rgb(217, 81, 64);
+    box-shadow: 0 0 0 1.3vw rgb(211, 138, 132);
+    border-radius: 50%;
+}
+
+.face-to-face {
+    padding: 2rem 10rem;
+}
+
+.content-description {
+    width: 30rem;
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+    margin-top: 2rem;
+}
+
+.face-to-face i {
+    color: red;
+    font-size: 1.2rem;
+    margin-top: 1.5rem;
+}
+
+.face-to-face p {
+    margin-top: 1rem;
+    line-height: 1.5;
+    color: rgba(0, 0, 0, 0.63);
+}
+
+.CookiePolicy p {
+    z-index: 1;
+    position: absolute;
+    bottom: .5rem;
+    left: .5rem;
+}
+
+.CookiePolicy span {
+    display: block;
+    font-size: .8rem;
+    color: rgba(255, 255, 255, 0.849);
+}
+
+.logo {
+    position: absolute;
+    right: -12rem;
+    bottom: 2.5rem;
+    font-size: 2rem;
+    /* font-weight: 600; */
+    color: purple;
+}
+
+.colored {
+    color: orangered;
+}
+
+.CookiePolicy2::after {
+    position: absolute;
+    left: 0rem;
+    bottom: -2rem;
+    content: '';
+    height: 15rem;
+    width: 15rem;
+    background-color: rgb(217, 81, 64);
+    box-shadow: 0 0 0 3vw rgba(211, 139, 132, 0.651);
+    border-radius: 50%;
+}
+
+.click-div {
+    z-index: 1;
+    position: absolute;
+    left: 1rem;
+    bottom: .7rem;
+    width: 12rem;
+    width: 14rem;
+    color: rgba(255, 255, 255, 0.623);
+}
+
+.click-div p {
+    text-align: center;
+    font-size: .8rem;
+    line-height: .2;
+    margin-left: -6rem;
+    color: rgba(255, 255, 255, 0.425);
+}
+h3{
+    margin-left: 3rem;
+    color: rgba(255, 255, 255, 0.822);
+    font-weight: 100;
+
+}
+.click-div i{
+    margin: -2rem 1rem 0 0;
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 100;
+
+}
+.click-div span{
+    font-size: .8rem;
+    display: inline-block;
+    margin: 1.5rem 0 1rem 3rem;
+}
